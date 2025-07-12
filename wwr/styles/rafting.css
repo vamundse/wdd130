@@ -53,6 +53,12 @@ nav, p, section, article {
     text-decoration: none;
 }
 
+.socialmedia img {
+    height: 32px;
+    width: auto;
+    margin: 5px;
+}
+
 .hero {
     position: relative;
 }
