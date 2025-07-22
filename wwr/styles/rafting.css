@@ -14,8 +14,16 @@
 }
 
 header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--primary-color);
     color: var(--accent2-color);
+}
+
+header img {
+    margin: 10px 0 10px 0;
+    height: 150px;
 }
 
 body {
@@ -32,8 +40,6 @@ h1, h2 {
     font-family: var(--header-font);
     color: var(--primary-color);
 }
-
-
 
 nav, p, section, article {
     margin: 16px;
@@ -81,4 +87,25 @@ nav, p, section, article {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav ul {
+    
+}
+
+.nav li {
+    margin-left: 20px;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--accent2-color)
 }
