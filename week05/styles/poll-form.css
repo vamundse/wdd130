@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto sans", sans-serif;
+}
+
+header {
+background-color: darkblue;
+text-align: center;
+padding: 20px;
+width: 600px;
+margin: 10px auto 0 auto;
+border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    font-family: "Bitcount Prop Double", system-ui;;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #fff;
+}
+
+form {
+    max-width: 600px;
+    display: grid;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+fieldset {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+legend {
+    font-family: "Bitcount Prop Double", system-ui;
+    font-weight: 700;
+    font-size: 2rem;
+    color: darkblue;
+}
+
+label {
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: right;
+    padding-right: 10px;
+}
+
+label.textarea {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: darkblue;
+    color: white;
+    border: 5px #333;
+    border-radius: 10px;
+}
+
+button:hover {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.3);
+}
+
+select {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+textarea {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: center;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 30px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
