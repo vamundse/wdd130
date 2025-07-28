@@ -29,14 +29,56 @@
             </section>
             <section>
                 <h2>Contact information</h2>
-                <p>Adresse: Lillestrøm, Norge</p>
-                <p>Phone number: 555 - 2345 - 3223</p>
-                <p>E-mail: mail@downtheriverrafting.com</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15980.8924950921!2d11.030154378879702!3d59.955178445086084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46417b5f82bbf777%3A0x6021ba6f044063cd!2sLillestr%C3%B8m%2C%20Norge!5e0!3m2!1sno!2sdk!4v1753473690199!5m2!1sno!2sdk" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <ul class="contact">
+                    <li>Phone number: 555 - 2345 - 3223</li>
+                    <li>E-mail: mail@downtheriverrafting.com</li>
+                    <li>Address: Lillestrøm, Norge</li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15980.8924950921!2d11.030154378879702!3d59.955178445086084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46417b5f82bbf777%3A0x6021ba6f044063cd!2sLillestr%C3%B8m%2C%20Norge!5e0!3m2!1sno!2sdk!4v1753473690199!5m2!1sno!2sdk" width="100%" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section>
+                <h2>Our staff</h2>
+                <div class="staff-images">
+                    <figure><img src="images/employee1.webp"><figcaption>John (Captain)</figcaption></figure>
+                    <figure><img src="images/employee2.webp"><figcaption>Sarah (Receptionist)</figcaption></figure>
+                    <figure><img src="images/employee3.webp"><figcaption>Hanna (Trainer)</figcaption></figure>
+                </div>
+            </section>
+            <section>
+                <h2>Contact form</h2>
+                <br>
+                <form>
+                    <fieldset>
+                        <legend>Who are you?</legend>
+                        <label for="fullname">Full name</label>
+                        <input type="text" id="fullname" name="fullname">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Why are you contacting us?</legend>
+                        <div class="radio">
+                            <label for="general">General Inquiry</label>
+                            <input type="radio" id="purpose" name="pupose" value="general">
+                        </div>
+                            <div class="radio"><label for="reservation">Reservation Question</label>
+                            <input type="radio" id="purpose" name="pupose" value="reservation">
+                        </div>
+                        <div class="radio">
+                            <label for="website">Website Suggestion</label>
+                            <input type="radio" id="purpose" name="pupose" value="website">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What is your message?</legend>
+                        <textarea id="message" name="message" rows="10" cols="20"></textarea>
+                    </fieldset>
+                    <button>Send message</button>
+                </form>
             </section>
         </main>
         <footer>
-            <p>&copy; 2025, Down The River, Vegard André Amundsen</p>
+            <p>&copy; 2025, Down The River, Vegard André Amundsen. View the <a href="https://app.moqups.com/t7ndm1LXjHSqA9pBoeOSu2snJr84ibx7/view/page/ad64222d5">Wireframe</a>.</p>
             <nav class="socialmedia">
                 <a href="x.com">
                     <img src="images/x.webp" alt="X social media logo">

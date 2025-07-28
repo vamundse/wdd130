@@ -36,9 +36,15 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1 {
     font-family: var(--header-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+h2 {
+    font-family: var(--header-font);
+    color: var(--accent2-color);
+    font-size: 1.2rem;
 }
 
 nav, p, section, article {
@@ -169,4 +175,73 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.staff-images {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.staff-images img {
+    width: 200px;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact li {
+    margin-left: 20px;
+}
+
+form {
+    display: grid;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+label {
+    margin: 10px 0 10px 0;
+}
+
+fieldset {
+    display: grid;
+    border: 0;
+    margin-bottom: 20px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+}
+
+.radio label {
+    margin-right: 10px;
+}
+
+legend {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+button {
+    background-color:var(--accent2-color);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+}
+
+input[type="radio"] {
+    height: 20px;
+    width: 20px;
+    vertical-align: bottom;
 }
